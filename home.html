@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/main.js"></script>
+    <title>Grid</title>
+    
+</head>
+<body>
+    <section class="main-section">
+       <div class="bg-blur bg-blur-1"></div>
+       <div class="bg-blur bg-blur-2"></div>
+       <div class="bg-blur bg-blur-3"></div>
+
+       <div class="orb-1"></div>
+       <div class="orb-2"></div>
+       <div class="orb-3">
+        <div class="orb-3-shadow"></div>
+       </div>
+
+       <div class="form-wraper">
+            <h1 class="form-title">Get started!</h1>
+            <p class="form-subtitle">Already have  an account? <span>Log in</span></p>
+
+            <div class="input-container">
+                <input id="email" name="email" class="input" type="text" required placeholder="" autocomplete="none" data-validation="required" data-validation-error-msg="* E-mail inválido"/>
+                <label class="label" for="email">E-mail</label>
+            </div>
+
+            <div class="input-container">
+                <input id="password" name="password" class="input" type="password" required/>
+                <label class="label" for="password">Password</label>
+            </div>
+
+            <label class="agreement-group" for="agreement_input">
+                <input id="agreement_input" type="checkbox">
+                <p class="agreement-text">I agree with <span>therms of Service</span> and <span>Policy Privacy</span></p>
+            </label>
+
+            <button class="btn btn-orange">Create an account</button>
+
+            <p class="buttons-separator">or</p>
+
+            <button class="btn btn-white">Sign up with Google</button>
+       </div>
+       <div class="form-wraper-shadow"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+       
+    </section>
+</body>
+</html>
